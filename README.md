@@ -8,7 +8,7 @@ This entry contains 3 collections for breakfast, lunch and dinner respectively.
 Here, is where their recipe lists are stored. When they click the breakfast, lunch or dinner tab,
 that collection is received from the database and displayed to the user in real time. If they add a new recipe,
 it instantly appears on the page since this app utilizes a Stream to the firestore database.
-This app also utilizes Firebase Auth to register users to the database and sign in users that have already registered.utilizes
+This app also utilizes Firebase Auth to register users to the database and sign in users that have already registered.
 This login information is also persistent throughout the app using a stream listener for any auth changes (ie the logout button is pressed)
 and by passing the current uid to each respective page.
 
